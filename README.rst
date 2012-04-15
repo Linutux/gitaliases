@@ -69,14 +69,14 @@ The following aliases are provided:
   the last pull in a short format.
 ``gpush``
   Alias for ``git push``
-``rebase``
+``greb``
   Alias for ``git rebase``
-``reset``
+``greset``
   Verbose reset (executes ``git reset -v`` and then ``git status``).
   All parameters will be forwarded to ``git reset``.
-``st``
+``gst``
   Alias for ``git status``
-``stash``
+``gsta``
   Alias for ``git stash``
 
 Acknowledgements
