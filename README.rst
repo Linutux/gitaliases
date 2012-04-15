@@ -24,6 +24,10 @@ Usage
 
 The following aliases are provided:
 
+``g``
+  Alias for ``git``
+``gcl``
+  Alias for ``git clone``
 ``gadd``
   Verbose add (executes ``git add -v`` and then ``git status``). All
   parameters will be forwarded to ``git add``.
@@ -40,8 +44,6 @@ The following aliases are provided:
   Alias for ``git commit``
 ``gfet``
   Alias for ``git fetch``
-``g``
-  Alias for ``git``
 ``glsadd``
   Pipes the output of ``git ls-files`` to ``grep`` to add only those
   files that match a given pattern. All parameters (including the
